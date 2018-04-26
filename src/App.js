@@ -31,7 +31,7 @@ class App extends Component {
      });
      Spotify.save(this.state.playlistName, trackURIs);
      this.setState({
-       playlistName: null,
+       playlistName: 'New Playlist',
        playlistTracks: []
      });
    }
